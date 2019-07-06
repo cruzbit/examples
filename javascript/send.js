@@ -3,6 +3,7 @@
 // npm install websocket
 // npm install tweetnacl
 // npm install tweetnacl-util
+// npm install sha3
 //
 
 const ArgParser = require("argparse").ArgumentParser;
