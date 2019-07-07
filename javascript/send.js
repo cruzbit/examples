@@ -1,3 +1,5 @@
+// Copyright 2019 cruzbit developers
+// Use of this source code is governed by a MIT-style license that can be found in the LICENSE file.
 //
 // npm install argparse
 // npm install websocket
@@ -10,7 +12,7 @@ const ArgParser = require("argparse").ArgumentParser;
 const WebSocket = require("websocket").client;
 const nacl = require("tweetnacl");
 const util = require("tweetnacl-util");
-const {SHA3} = require('sha3');
+const {SHA3} = require("sha3");
 
 const GENESIS_BLOCK_ID = "00000000e29a7850088d660489b7b9ae2da763bc3bd83324ecc54eee04840adb"
 
